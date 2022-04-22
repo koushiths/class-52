@@ -1,0 +1,100 @@
+h1{
+color:#f8c4ab;
+border:solid;
+padding:30px;
+}
+
+h2{
+    color:rgb(248, 248, 247)
+}
+
+h3{
+    color: #0a0a0a;   
+    font-variant-caps: all-petite-caps; 
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px; 
+    text-align: center; 
+}
+
+h4{
+    color: #3b6d66;   
+    font-variant-caps: all-petite-caps; 
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px; 
+    text-align: center;
+}
+
+.header{
+
+display:flex;
+justify-content: space-between;
+}
+
+
+.grid{
+    
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.subH{
+    background-color: #aec5af;
+    font-family: cursive;
+    font-variant-caps: all-petite-caps; 
+    font-size: 30px;
+    text-align: center;
+}
+
+body{
+    
+    background-color: #b4a89b
+    
+}
+
+a:link{
+    color:white;
+}   
+
+a:visited{
+    color:white;
+}
+
+.menu{
+    padding-right: 30px;
+    padding-top: 25px;
+}
+ .menu a{
+    margin-left: 15px;
+ }
+
+ .item img{
+    padding-bottom: 50px;
+}
+
+.item{
+    position:relative
+}
+
+.item h3{
+    position:absolute;
+    top:50%;
+    bottom:0%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.item:hover h3{
+    opacity:1
+}
+.item:hover img{
+    opacity: 0.33;
+}
